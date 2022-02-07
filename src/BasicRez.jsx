@@ -72,11 +72,11 @@ function Education(props) {
   return (
     <section>
       <h2>Education</h2>
-      <ul>
+      <ol>
         <li><b>EdD:</b> Instructional Tecnology &amp; Media. Columbia University.</li>
         <li><b>MA:</b> Computing &amp; Education. Columbia University.</li>
-        <li><b>BA:</b> English. Colby College.</li>
-      </ul>
+        <li><b>BS:</b> Math. Adelphi University.</li>
+      </ol>
     </section>
   )
 }
@@ -89,6 +89,7 @@ function Skills(props) {
         <li>Javascript</li>
         <li>Python</li>
         <li>Java</li>
+        <li>LISP</li>
         <li>English</li>
         <li>Spanish</li>
       </ul>

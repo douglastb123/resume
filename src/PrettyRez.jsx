@@ -16,22 +16,29 @@ import React from 'react';
 import Experience from "./Work.jsx";
 import Education from "./Schools.jsx";
 import Skills from "./Skills.jsx";
+import Interests from "./Interests.jsx";
+import Awards from "./Awards.jsx";
 import {Bio, Contact, ProfileImg} from "./Profile.jsx";
 
 function Rez() {
+
+  console.log("loading the pretty resume...");
+
   return (
-    <div className="Rez container m-3 p-3">
+    <div id="PrettyResume" className="Rez container m-3 p-3">
       <div className="row">
         <div className="MainLeftCol col-12 col-md-8">
           <Header />
           <Experience />
           <Education />
+          <Awards />
         </div>
 
         <div className="MainSideCol col-md-4 flex-column">
           <ProfileImg />
           <Contact />
           <Skills />
+          <Interests />
         </div>
 
       </div>

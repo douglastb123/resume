@@ -16,7 +16,7 @@ function Skill(s, i) {
   const maxSkill = 5;
   let pct = s.score / maxSkill * 100 + "%";
   return (
-    <div key={i} className="Skill d-flex justify-content-end">
+    <div key={i} className="Skill d-flex justify-content-end fade-in-text">
       <div className="font-weight-bold text-primary pe-2">{s.skill}</div>
       <div className="progress w-50">
         <div className="progress-bar"

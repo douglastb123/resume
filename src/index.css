@@ -3,3 +3,26 @@
 .PortfolioHeader h5 {
   font-size: 64px;
 }
+
+
+/* .Rez {
+  color: green;
+} */
+
+.fade-in-text {
+  animation: fadeIn linear 3s;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+body {
+  background: url("./res/color-bg.jpg");
+}
+
+#PrettyResume {
+  border-radius: 12px !important;
+  background-color: rgb(255,255,255, .80);
+}
